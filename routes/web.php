@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\User;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +20,16 @@ Route::get('/', function () {
 });
 Route::get('/test', function () {
     return view('test');
+});
+Route::get('/analytics', function () {
+    return view('analytics');
+});
+
+Route::get('/users', function() {
+    $users = \App\Models\User::all();
+
+    return view('users', ['users' => $users]);
+
 });
 
 Route::get('/dashboard', function () {
