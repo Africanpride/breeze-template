@@ -22,24 +22,19 @@
                      </a>
                   </li>
                   <li>
-                     <a href="#">
-                        <i class="icofont-shopping-cart"></i>
-                        <span class="link-title">Ecommerce</span>
+                     <a href="{{ route('articles.article.index') }}">
+                        <i class="icofont-listing-box"></i>
+                        <span class="link-title">Articles</span>
                      </a>
-
-                     <!-- Sub Menu -->
-                     <ul class="nav sub-menu">
-                        <li><a href="pages/ecommerce/ecommerce.html">Dashboard 1</a></li>
-                        <li><a href="pages/ecommerce/ecommerce2.html">dashboard 2</a></li>
-                        <li><a href="pages/ecommerce/orders.html">orders</a></li>
-                        <li><a href="pages/ecommerce/product-catelog.html">Products Catalog</a></li>
-                        <li><a href="pages/ecommerce/product-details.html">Product Details</a></li>
-                        <li><a href="pages/ecommerce/cartlist.html">cart list</a></li>
-                     </ul>
-                     <!-- End Sub Menu -->
                   </li>
                   <li>
-                     <a href="pages/social-media.html">
+                     <a href="{{ route('analytics') }}">
+                        <i class="icofont-chart-histogram"></i>
+                        <span class="link-title">Social Media Analytics</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="{{ route('analytics') }}">
                         <i class="icofont-chart-histogram"></i>
                         <span class="link-title">Social Media Analytics</span>
                      </a>
