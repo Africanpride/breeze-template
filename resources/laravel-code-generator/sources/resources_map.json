@@ -1,0 +1,10 @@
+[
+    {
+        "model-name": "Category",
+        "resource-file": "categories.json"
+    },
+    {
+        "model-name": "Comment",
+        "resource-file": "comments.json"
+    }
+]
